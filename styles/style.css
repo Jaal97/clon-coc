@@ -1,0 +1,749 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    margin: 0 auto;
+    max-width: 140rem;
+}
+header
+{
+   width: 100vw;
+   max-width: 140rem;
+   height: 10.43vh;
+   margin: 0 auto;
+   background: none;
+   position: fixed;
+}
+.main-header
+{
+    width: 100vw;
+    max-width: 140rem;
+    height: 6.3vh;
+    margin: 0 auto;
+    background-color: #f69d2d;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-coc
+{
+    margin-top: 1rem;
+    width: 17rem;
+    height: 8rem;
+    display: flex;
+}
+.logo-coc img
+{
+    width: 100%;
+}
+.main-right
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+}
+.main-right article
+{
+    cursor: pointer;
+    color: white;
+    margin-right: 0.5rem;
+}
+.main-right .container-arrow
+{
+    margin-top: 0.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.main-right figure img
+{
+    width: 100%;
+    height: auto;
+}
+.main-logo picture
+{
+    width: 100;
+}
+.main-logo picture img
+{
+    margin-top: 3.4rem;
+    width: 100%;
+}
+/* Main */
+main
+{
+    background: #f7f7f7;;
+}
+.main-links article
+{
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left; */
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+.main-links .categories a
+{
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    font-family: "ProximaNova-Bold";
+    background-color: rgba(54, 54, 54, 0.1);
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 0 0;
+    padding: 1rem 2.1rem;
+    font-size: 1.5rem;
+    width: fit-content;
+    text-decoration: none;
+    color: #7f7f7f;
+}
+.main-links .categories .to:active
+{
+    color: #000000;
+    background-color: #f69d2d;
+}
+.main-links .categories .rama:active
+{
+    color: #000000;
+    background-color: #e1261c;
+}
+.main-links .categories .mun:active
+{
+    color: #000000;
+    background-color: #db8315;
+}
+.main-links .categories .ac:active
+{
+    color: #000000;
+    background-color: #f5c65d;
+}
+.main-links .categories .no:active
+{
+    color: #000000;
+    background-color: #978036;
+}
+.main-links .categories .co:active
+{
+    color: #000000;
+    background-color: #b35f8c;
+}
+.main-links .categories .es:active
+{
+    color: #000000;
+    background-color: #213cc4;
+}
+.main-links .categories .su:active
+{
+    background-color: #000000;
+}
+.main-links .categories .ju:active
+{
+    background-color: #00aaff;
+}
+.main-links .categories .estra:active
+{
+    color: #000000;
+    background-color: #806db6;
+}.main-links .categories .not:active
+{
+    color: #000000;
+    background-color: #007a00;
+}
+.main-links .categories .cl:active
+{
+    color: #000000;
+    background-color: #db8315;
+}
+.main-container
+{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+}
+/* firts container */
+.container-esports
+{
+    display: flex;
+    
+}
+.container-esports figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-esports figure img
+{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #213cc4;
+}
+.esports-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.esports-description a
+{
+    color: #213cc4;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.esports-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.esports-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* 
+Second container */
+.container-optional
+{
+    display: flex;
+    margin-top: 0rem;
+}
+.container-optional figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-optional figure img
+{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #007a00;
+}
+.optional-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.optional-description a
+{
+    color: #007a00;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.optional-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.optional-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Third container */
+.container-update
+{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.container-update figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-update figure img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #007a00;
+}
+.update-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.update-description a
+{
+    color: #007a00;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.update-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.update-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Quarter container */
+.container-maintenance
+{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.container-maintenance figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-maintenance figure img
+{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #b35f8c;
+}
+.maintenance-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.maintenance-description a
+{
+    color: #b35f8c;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.maintenance-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.maintenance-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* fifth container */
+.container-tournament
+{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.container-tournament figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-tournament figure img
+{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #213cc4;
+}
+.tournament-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.tournament-description a
+{
+    color: #213cc4;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.tournament-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.tournament-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* sixth container */
+.container-friends
+{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.container-friends figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-friends figure img
+{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #978036;
+}
+.friends-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.friends-description a
+{
+    color: #978036;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.friends-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.friends-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* seven container */
+.container-league
+{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.container-league figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-league figure img
+{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #978036;
+}
+.league-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.league-description a
+{
+    color: #978036;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.league-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.league-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* eight container */
+.container-balance
+{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.container-balance figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-balance figure img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #007a00;
+}
+.balance-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.balance-description a
+{
+    color: #007a00;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.balance-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.balance-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* nine container */
+.container-winter
+{
+    display: flex;
+    margin-top: 0.5rem;
+}
+.container-winter figure
+{
+    width: 242.35px;
+    min-width: 130.96px;
+    height: 148px;
+    min-height: 80px;
+}
+.container-winter figure img
+{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+    border-right: 2px solid #007a00;
+}
+.winter-description
+{
+    margin-top: 0.3rem;
+    margin-left: 1.8rem;
+    text-decoration: none;
+}
+.winter-description a
+{
+    color: #007a00;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.winter-description h3
+{
+    margin-top: 0.3rem;
+    
+}
+.winter-description h3 a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* Main footer */
+.main-footer
+{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.container-numbers
+{
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+    justify-content: center;
+}
+.container-numbers a:active
+{
+    color: #db8315;
+}
+.container-numbers a
+{
+    margin-right: 1.5rem;
+    background-color: transparent;
+    color: #858585;
+    text-decoration: none;
+}
+.container-numbers figure
+{
+    margin-top: -1.2rem;
+    cursor: pointer;
+    width: 4.1rem;
+    height: auto;
+}
+.container-numbers figure img
+{
+    width: 100%;
+}
+/* footer return */
+.return
+{
+    display: flex;
+    justify-content: center;
+    background-color: #ffa518;
+    width: 100%;
+    height: 5.8rem;
+}
+.return .home
+{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+}
+.return .home span
+{
+    display: inline-flex;
+    margin-top: 2rem;
+}
+.return .home span figure
+{
+    margin-top: 0rem;
+    margin-left: 1rem;
+    width: 1.4rem;
+    height: auto;
+}
+.return .home span figure img
+{
+    width: 100%;
+    height: auto;
+}
+/* primary footer */
+.primary
+{
+    width: 100%;
+    height: 25vh;
+    background-color: #000000;
+}
+.primary article
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.primary article a
+{
+    margin-top: 1.6rem;
+    text-decoration: none;
+    color: white;
+}
+/* Download */
+.download
+{
+    background-color: #000000;
+    height: 10vh
+}
+.phones
+{
+    display: flex;
+    justify-content: center;
+}
+.phones .iphone
+{
+    width: 125px;
+    min-width: 120px;
+    height: 41px;
+    min-height: 40px;
+} 
+.phones .iphone img
+{
+    width: 100%;
+    height: auto;
+}
+.phones .android
+{
+    width: 125px;
+    min-width: 120px;
+    height: 41px;
+    min-height: 40px;
+} 
+.phones .android img
+{
+    width: 100%;
+    height: auto;
+}
+/* Secondary */
+.secondary
+{
+    border-top: 0.6px solid #262626;
+    background-color: #000000;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.secondary article
+{
+    padding-top: 3rem;
+    padding-right: 2.5rem;
+}
+.secondary article a
+{
+    text-decoration: none;
+    color: #858585;
+    font-size: 1.4rem;
+    padding-left: 3rem;
+}
+/* Social footer */
+.social
+{
+    background-color: #ffa518;
+    
+}
+.social-media
+{
+    padding-left: 2.3rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.social .social-media figure
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+    width: 22px;
+    height: auto;
+}
+.social .social-media figure img
+{
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+}
+
